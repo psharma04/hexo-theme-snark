@@ -21,13 +21,13 @@ fancybox: true  ## for image view
 copyright: true ## for CC BY-NC 4.0 license
 
 menu:
-  - page: 归档
+  - page: Archives
     directory: archives/
-  - page: 分类
+  - page: Categories
     directory: categories/
-  - page: 标签
+  - page: Tags
     directory: tags/
-  - page: 关于
+  - page: About
     directory: about/
   - page: rss
     directory: atom.xml
