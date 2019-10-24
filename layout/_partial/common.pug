@@ -57,17 +57,16 @@ mixin post-header(post)
 mixin post-copyright(post)
     .p-copyright: blockquote
         .p-copyright-author
-            span.p-copyright-key= '本文作者：'
-            span.p-copytight-value: a(href='mailto:litreily@163.com')= config.author
+            span.p-copyright-key= 'Author: '
+            span.p-copytight-value: a(href='mailto:schoolnotes@intranet.pw')= config.author
         .p-copyright-link
-            span.p-copyright-key= '本文链接：'
+            span.p-copyright-key= 'Article reference:'
             span.p-copytight-value: a(href=url_for(post.path))= config.url + '/' + post.path
         .p-copyright-note
-            span.p-copyright-key= '版权声明：'
-            span.p-copytight-value= '本博客所有文章除特殊声明外，均采用'
-                a(rel='nofollow', target='_blank', href='https://creativecommons.org/licenses/by-nc/4.0/')  CC BY-NC 4.0 
-                | 许可协议。转载请注明出处 
-                a(href=config.url)= config.author + '的博客'
+            span.p-copyright-key= 'Copyright Notice: '
+            span.p-copytight-value= 'This website is licensed under CC BY-NC 4.0'
+                a(rel='nofollow', target='_blank', href='https://creativecommons.org/licenses/by-nc/4.0/')  CC BY-NC 4.0  
+                a(href=config.url)= config.author
                 | ！
 
 mixin post-footer(post)

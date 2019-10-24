@@ -39,7 +39,7 @@ block content
                                 != post.content.substring(0, br)
                     //- readmore
                     p(class='p-readmore')
-                        a(href=url_for(post.path))= __('阅读更多 >>')
+                        a(href=url_for(post.path))= __('Read More >>')
 
                 +post-meta(post)
     include _partial/paginator.pug
