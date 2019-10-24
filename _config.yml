@@ -23,12 +23,8 @@ copyright: true ## for CC BY-NC 4.0 license
 menu:
   - page: Archives
     directory: archives/
-  - page: Categories
-    directory: categories/
-  - page: Tags
-    directory: tags/
-  - page: About
-    directory: about/
+#  - page: Categories
+#    directory: categories/
   - page: rss
     directory: atom.xml
 
