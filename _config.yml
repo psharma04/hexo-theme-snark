@@ -21,12 +21,21 @@ fancybox: true  ## for image view
 copyright: true ## for CC BY-NC 4.0 license
 
 menu:
-  - page: Archives
-    directory: archives/
+
+  - page: Year 12
+    directory: categories/Year-12/
   - page: Year 11
     directory: categories/Year-11/
   - page: Year 10
     directory: categories/Year-10/
+  - page: Exam Calendar
+    directory: calendar/
+  - page: Discord Server
+    directory: https://discord.gg/tmqqqmk
+  - page: Contributing
+    directory: contributing/
+  - page: Archives
+    directory: archives/
   - page: rss
     directory: atom.xml
 
