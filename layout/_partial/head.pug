@@ -5,11 +5,12 @@ head
     meta(content='black-translucent', name='apple-mobile-web-app-status-bar-style')
     meta(content='telephone=no', name='format-detection')
     meta(name='description', content=config.description)
+    script(data-ad-client='ca-pub-4283941482669066' async='' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
     block title
     link(rel='stylesheet', type='text/css', href=url_for(theme.css) + '/style.css')
     link(rel='Shortcut Icon', type='image/x-icon', href=url_for('favicon.png'))
     link(rel='stylesheet', href='//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css')
     script(type='text/javascript', src='//cdn.bootcss.com/jquery/3.3.1/jquery.min.js')
-script#MathJax-script(type='text/javascript' async='' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js')
+    script#MathJax-script(type='text/javascript' async='' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js')
 
     block more
