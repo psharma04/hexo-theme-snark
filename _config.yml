@@ -4,6 +4,7 @@ description: "A website full of notes."
 # comment system
 valine: ## https://valine.js.org
   enable: true ## If you want to use Valine comment system, please set the value to true.
+  lang: en
   appid: rFh8EnU03MHWu203wJeRD7sR-MdYXbMMI ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
   appkey: ucVtDity0RSCykJ10ifzaAdl ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
   notify: true ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
@@ -19,6 +20,12 @@ local_search: true
 customize_css: true  ## if enable customize_css, it will load file source/css/customize.scss
 fancybox: true  ## for image view
 copyright: true ## for CC BY-NC 4.0 license
+
+# Comments.
+comments:
+  gitment: 
+    clientId: c6877f4208c295144b1f
+    clientSecret: dbeb429ed7904c66355accba7ef3542be5bb22db
 
 menu:
 
