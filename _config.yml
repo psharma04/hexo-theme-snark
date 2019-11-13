@@ -45,6 +45,8 @@ menu:
     directory: archives/
   - page: rss
     directory: atom.xml
+  - page: "#TeamTrees"
+    directory: https://teamtrees.org
 
 icons:
   date: fa fa-calendar
