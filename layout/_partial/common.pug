@@ -64,10 +64,10 @@ mixin post-copyright(post)
             span.p-copytight-value: a(href=url_for(post.path))= config.url + '/' + post.path
         .p-copyright-note
             span.p-copyright-key= 'Copyright Notice: '
-            span.p-copytight-value= 'This website is licensed under CC BY-NC 4.0'
-                a(rel='nofollow', target='_blank', href='https://creativecommons.org/licenses/by-nc/4.0/')  CC BY-NC 4.0  
+            span.p-copytight-value= 'This website is licensed under'
+                a(rel='nofollow', target='_blank', href='https://creativecommons.org/licenses/by-nc/4.0/')  CC BY-NC 4.0&#160;
                 a(href=config.url)= config.author
-                | ！
+                |
 
 mixin post-footer(post)
     .p-info.box
