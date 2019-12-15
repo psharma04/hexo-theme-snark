@@ -60,7 +60,7 @@ mixin post-copyright(post)
             span.p-copyright-key= 'Author: '
             span.p-copytight-value: a(href='mailto:schoolnotes@intranet.pw')= config.author
         .p-copyright-link
-            span.p-copyright-key= 'Article reference:'
+            span.p-copyright-key= 'Article reference: '
             span.p-copytight-value: a(href=url_for(post.path))= config.url + '/' + post.path
         .p-copyright-note
             span.p-copyright-key= 'Copyright Notice: '
