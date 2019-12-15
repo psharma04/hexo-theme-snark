@@ -37,6 +37,8 @@ menu:
     directory: categories/Year-10/
   - page: Exam Calendar
     directory: calendar/
+  - page: Download Textbooks
+    directory: Textbooks/
   - page: Discord Server
     directory: https://discord.gg/tmqqqmk
   - page: Contributing
