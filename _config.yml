@@ -23,7 +23,7 @@ copyright: true ## for CC BY-NC 4.0 license
 
 # Comments.
 comments:
-  gitment: 
+  gitment:
     clientId: c6877f4208c295144b1f
     clientSecret: dbeb429ed7904c66355accba7ef3542be5bb22db
 
@@ -47,8 +47,8 @@ menu:
     directory: archives/
   - page: rss
     directory: atom.xml
-  - page: "#TeamTrees"
-    directory: https://teamtrees.org
+  - page: "Australian Bushfire Relief"
+    directory: https://www.rfs.nsw.gov.au/volunteer/support-your-local-brigade
 
 icons:
   date: fa fa-calendar
