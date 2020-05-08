@@ -47,8 +47,8 @@ menu:
     directory: archives/
   - page: rss
     directory: atom.xml
-  - page: "Australian Bushfire Relief"
-    directory: https://www.rfs.nsw.gov.au/volunteer/support-your-local-brigade
+  - page: "Subscribe for more"
+    directory: https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fschoolnotes.intranet.pw%2Fatom.xml
 
 icons:
   date: fa fa-calendar
