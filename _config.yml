@@ -41,8 +41,8 @@ menu:
     directory: Textbooks/
   - page: Discord Server
     directory: https://discord.gg/tmqqqmk
-  - page: Contributing
-    directory: contributing/
+  - page: Contribute
+    directory: admin/
   - page: Archives
     directory: archives/
   - page: rss
